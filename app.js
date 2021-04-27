@@ -35,7 +35,7 @@ app.get('/logIn', (req,res) => {
     res.render('logIn')
 })
 
-app.get('/logIn/loginsucessful', (req,res) => {
+app.get('/loginsucessful', (req,res) => {
     res.render('loginsucessful')
 })
 
@@ -43,8 +43,12 @@ app.get('/register', (req,res) => {
     res.render('register')
 })
 
-app.get('/register/registersucessful', (req,res) => {
+app.get('/registersucessful', (req,res) => {
     res.render('registersucessful')
+})
+
+app.get('/post1', (req,res) => {
+    res.render('post1')
 })
 
 
