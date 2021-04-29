@@ -51,6 +51,27 @@ app.get('/post1', (req,res) => {
     res.render('post1')
 })
 
+app.get('/post2', (req,res) => {
+    res.render('post2')
+})
+
+app.get('/post3', (req,res) => {
+    res.render('post3')
+})
+
+app.get('/category1', (req,res) => {
+    res.render('category1')
+})
+
+app.get('/category2', (req,res) => {
+    res.render('category2')
+})
+
+app.get('/category3', (req,res) => {
+    res.render('category3')
+})
+
+
 
 
 
