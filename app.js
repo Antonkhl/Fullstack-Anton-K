@@ -2,6 +2,12 @@ const express = require('express')
 const app = express()
 const port = 3000
 
+const staticDir = __dirname + '\\public\\'
+app.use(express.static(staticDir))
+
+app.use(express.json())
+app.use(express.urlencoded({extended: false}))
+
 
 app.use(express.static('public'))
 app.use('/css', express.static(__dirname + 'public/css'))
