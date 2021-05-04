@@ -1,7 +1,12 @@
 @import './functions.scss';
 @import './variables.scss';
 
+//body
+#body {
+    
+}
 
-#header {
- background-color: blue;
+//header
+#logoimage {
+@include  headerImg($border_radius);
 }

@@ -17,64 +17,64 @@ app.set('views', './views')
 app.set('view engine', 'ejs')
 
 
-app.get('', (req,res) => {
-    res.render('index')
+app.get('/', (req,res) => {
+    res.render( __dirname + '/views/index.ejs')
 })
 
 app.get('/index2', (req,res) => {
-    res.render('index2')
+    res.render(__dirname + '/views/index2.ejs')
 })
 
 app.get('/aboutus', (req,res) => {
-    res.render('aboutus')
+    res.render(__dirname + '/views/aboutus.ejs')
 })
 
 app.get('/createcategory', (req,res) => {
-    res.render('createcategory')
+    res.render(__dirname + '/views/createcategory.ejs')
 })
 
 app.get('/createpost', (req,res) => {
-    res.render('createpost')
+    res.render(__dirname + '/views/createpost.ejs')
 })
 
 app.get('/logIn', (req,res) => {
-    res.render('logIn')
+    res.render(__dirname + '/views/logIn.ejs')
 })
 
 app.get('/loginsucessful', (req,res) => {
-    res.render('loginsucessful')
+    res.render(__dirname + '/views/loginsucessful.ejs')
 })
 
 app.get('/register', (req,res) => {
-    res.render('register')
+    res.render(__dirname + '/views/register.ejs')
 })
 
 app.get('/registersucessful', (req,res) => {
-    res.render('registersucessful')
+    res.render(__dirname + '/views/registersucessful.ejs')
 })
 
 app.get('/post1', (req,res) => {
-    res.render('post1')
+    res.render(__dirname + '/views/post1.ejs')
 })
 
 app.get('/post2', (req,res) => {
-    res.render('post2')
+    res.render(__dirname + '/views/post2.ejs')
 })
 
 app.get('/post3', (req,res) => {
-    res.render('post3')
+    res.render(__dirname + '/views/post3.ejs')
 })
 
 app.get('/category1', (req,res) => {
-    res.render('category1')
+    res.render(__dirname + '/views/category1.ejs')
 })
 
 app.get('/category2', (req,res) => {
-    res.render('category2')
+    res.render(__dirname + '/views/category2.ejs')
 })
 
 app.get('/category3', (req,res) => {
-    res.render('category3')
+    res.render(__dirname + '/views/category3.ejs')
 })
 
 

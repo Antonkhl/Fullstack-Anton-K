@@ -1,0 +1,6 @@
+@import './variables.scss';
+
+//header
+@mixin headerImg($border_radius) {
+    border-radius: $border_radius;
+}
