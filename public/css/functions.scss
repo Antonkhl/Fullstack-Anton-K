@@ -1,6 +1,43 @@
 @import './variables.scss';
 
+//general
+
+@mixin position($position) {
+    position: $position;
+}
+
 //header
-@mixin headerImg($border_radius) {
+@mixin headerImg($border_radius, $header_logo_height, $header_logo_width) {
     border-radius: $border_radius;
+    height: $header_logo_height;
+    width: $header_logo_width;
+
+}
+
+@mixin bgc($bgc) {
+    background-color: $bgc;
+}
+
+@mixin headerButton($header_button_bgc, $header_button_border, $header_button_color, $header_button_padding, $header_button_text_align, $header_button_text_decoration, $header_button_display, $header_button_fontsize, $header_button_cursor) {
+    background-color: $header_button_bgc;
+    border: $header_button_border;
+    color: $header_button_color;
+    padding: $header_button_padding;
+    text-align: $header_button_text_align;
+    text-decoration: $header_button_text_decoration;
+    display: $header_button_display;
+    font-size: $header_button_fontsize;
+    cursor: $header_button_cursor;
+}
+
+@mixin headerText($header_text_login_fontsize, $text_color, $header_text_login_textalign) {
+    font-size: $header_text_login_fontsize;
+    color: $text_color;
+    text-align: $header_text_login_textalign;
+}
+
+@mixin verticalLine($header_vl_borderleft, $header_vl_height) {
+    border-left: $header_vl_borderleft;
+    height: $header_vl_height;
+    color: white;
 }

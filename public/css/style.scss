@@ -2,11 +2,51 @@
 @import './variables.scss';
 
 //body
-#body {
-    
+body {
+    @include bgc($bgc);
+    @include position($position);
 }
 
 //header
 #logoimage {
-@include  headerImg($border_radius);
+@include position($position);
+@include  headerImg($border_radius, $header_logo_height, $header_logo_width);
+left: -10px;
+bottom: 10px;
 }
+
+#headerbutton1, #headerbutton2, #headerbutton3 {
+    @include position($position);
+    @include headerButton($header_button_bgc, $header_button_border, $header_button_color, $header_button_padding, $header_button_text_align, $header_button_text_decoration, $header_button_display, $header_button_fontsize, $header_button_cursor);
+}
+
+#headerbutton1 {
+bottom: 150px;
+left: 350px;
+}
+
+#headerbutton2 {
+    bottom: 150px;
+    left: 450px;
+}
+
+#headerbutton3 {
+    bottom: 150px;
+    left: 550px;
+}
+
+#Loggedin {
+    @include position($position);
+    @include headerText($header_text_login_fontsize, $text_color, $header_text_login_textalign);
+   bottom: 290px;
+   left: 550px;
+}
+
+.vl {
+    @include position($position);
+    @include verticalLine($header_vl_borderleft, $header_vl_height);
+    bottom: 280px;
+    left: 1100px;
+}
+
+
