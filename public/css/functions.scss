@@ -12,6 +12,11 @@
     height: $site_height;
 }
 
+@mixin siteRestriction($site_height, $overflow) {
+    height: $site_height;
+    overflow: $overflow;
+}
+
 //header
 @mixin headerImg($border_radius, $header_logo_height, $header_logo_width) {
     border-radius: $border_radius;
@@ -53,6 +58,27 @@
     border-radius: $header_hl_border_radius;
     width: $header_hl_width
 }
+
+
+//index.ejs
+
+@mixin mainVl($main_vl_height, $main_vl_width, $header_vl_borderleft) {
+    border-left: $header_vl_borderleft;
+    height: $main_vl_height;
+    width: $main_vl_width;
+    color: white;
+}
+
+@mixin mainTextHeaders($main_text_color, $main_text_header_fontsize) {
+color: $main_text_color;
+font-size: $main_text_header_fontsize;
+}
+
+@mixin categories($main_text_color) {
+    color: $main_text_color;
+}
+
+
 
 
 //footer
@@ -104,4 +130,6 @@
 @mixin footerWidth($footer_width) {
     width: $footer_width;
 }
+
+
 

@@ -3,7 +3,8 @@ $bgc: #2c2b2a;
 $position: relative;
 $text_color: white;
 $overflow: hidden;
-$site_height: 3500px;
+$site_height: 1710px;
+
 
 //header
 $border_radius: 8px;
@@ -25,6 +26,14 @@ $header_vl_height: 200px;
 $header_hl_border: 4px solid white;
 $header_hl_border_radius: 2px;
 $header_hl_width: 3100px;
+
+
+//index.ejs
+$main_vl_height: 1000px;
+$main_vl_width: 30px;
+$main_text_color: white;
+$main_text_header_fontsize: 60px;
+$main_text_posts_fontsize: 30px;
 
 
 //footer

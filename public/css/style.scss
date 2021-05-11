@@ -4,13 +4,11 @@
 //body
 body {
     @include bgc($bgc);
-    @include position($position);
     overflow-x: hidden;
 }
 
 #container {
-    height: 1500px;
-    overflow: hidden;
+    @include siteRestriction($site_height, $overflow);
 }
 
 //header
@@ -65,6 +63,40 @@ left: 350px;
 }
 
 
+//index.ejs
+
+.vlMain {
+    @include position($position);
+    @include mainVl($main_vl_height, $main_vl_width, $header_vl_borderleft);
+    bottom: 475px;
+    left: 900px;
+}
+
+#popCategories {
+@include position($position);
+@include mainTextHeaders($main_text_color, $main_text_header_fontsize);
+bottom: 1500px;
+left: 160px;
+}
+
+#popPosts {
+@include position($position);
+@include mainTextHeaders($main_text_color, $main_text_header_fontsize);
+bottom: 1800px;
+left: 1230px;
+}
+
+.hlMain {
+@include position($position);
+@include horizontalLine($header_hl_border, $header_hl_border_radius, $header_hl_width);
+bottom: 1530px;
+}
+
+#category1 {
+    
+}
+
+
 //footer
 
 #footer {
@@ -72,7 +104,7 @@ left: 350px;
    @include footerBgc($footer_bgc);
    @include footerWidth($footer_width);
    right: 10px;
-   height: 330px;
+   height: 500px;
 
 }
 
