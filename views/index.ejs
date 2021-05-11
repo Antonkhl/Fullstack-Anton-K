@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="css/variables.css">
 </head>
 <body>
-    
+    <div id="container">
+
 <div id="header">
     <div>
     <a href="/">
@@ -62,7 +63,6 @@
     <p>have you ever seen one...</p>
   </div>
 
-</div>
 
 <div id="footer">
     <img id="footerImage" src="img/site_logo.png" alt="">
@@ -79,23 +79,25 @@
     <img id="twitter" src="img/twitter_logo.png" alt="">
 
     <div id="form">
-        <form id="contactus">
-    <label for="fname">First Name</label>
+    <h3 id="formHeader">Contact Us</h3>
+    <form id="contactus">
+        <div id="input">
+    <label id="fnameLabel" for="fname"><b>First Name</b></label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-    <label for="lname">Last Name</label>
+    <label id="lnameLabel" for="lname"><b>Last Name</b></label>
     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-    <label for="subject">Subject</label>
+    <label id="subjectLabel" for="subject"><b>Subject</b></label>
     <textarea id="subject" name="subject" placeholder="Write something.." ></textarea>
-
-    <input type="submit" value="Submit">
+</div>
+    <input id="submitButton" type="submit" value="Submit">
         </form>
     </div>
 
 
 </div>
 
-
+</div>
 </body>
 </html>

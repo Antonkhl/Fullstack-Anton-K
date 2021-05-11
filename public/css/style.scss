@@ -8,6 +8,11 @@ body {
     overflow-x: hidden;
 }
 
+#container {
+    height: 1500px;
+    overflow: hidden;
+}
+
 //header
 #logoimage {
 @include position($position);
@@ -63,7 +68,12 @@ left: 350px;
 //footer
 
 #footer {
+    @include position($position);
    @include footerBgc($footer_bgc);
+   @include footerWidth($footer_width);
+   right: 10px;
+   height: 330px;
+
 }
 
 #footerImage {
@@ -94,12 +104,73 @@ left: 350px;
 #facebook {
     @include position($position);
     @include facebookImg($footer_img_facebook_height, $footer_img_facebook_width);
-    bottom: 1015px;
+    bottom: 528px;
     left: 910px;
 }
 
 #twitter {
     @include position($position);
     @include facebookImg($footer_img_facebook_height, $footer_img_facebook_width);
+    bottom: 483px;
+    left: 880px;
 }
+
+#formHeader {
+@include position($position);
+ @include footerFormText($footer_footer_form_text);
+bottom: 646px;
+left: 1400px;
+}
+
+#fnameLabel {
+    @include position($position);
+   bottom: 690px;
+   left: 1350px;
+}
+
+#fname {
+    @include position($position);
+    bottom: 690px;
+    left: 1380px;
+}
+
+#lnameLabel {
+    @include position($position);
+    bottom: 650px;
+    left: 1090px;
+}
+
+#lname {
+    @include position($position);
+    bottom: 647px;
+    left: 1121px;
+}
+
+#subjectLabel {
+    @include position($position);
+    bottom: 610px;
+    left: 830px;
+}
+
+#subject {
+    @include position($position);
+    @include footerTextarea($footer_textarea_height, $footer_textarea_width);
+    bottom: 530px;
+    left: 885px;
+}
+
+#input {
+    @include position($position);
+    bottom: 36px;
+}
+
+#submitButton {
+    @include position($position);
+    @include footerSubmit($footer_form_submit_width, $footer_form_submit_height);
+    bottom: 550px;
+    left: 1500px;
+}
+
+
+
 

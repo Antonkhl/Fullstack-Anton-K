@@ -6,6 +6,12 @@
     position: $position;
 }
 
+@mixin overflow($overflow, $site_height) {
+    overflow: $overflow;
+    overflow-x: $overflow;
+    height: $site_height;
+}
+
 //header
 @mixin headerImg($border_radius, $header_logo_height, $header_logo_width) {
     border-radius: $border_radius;
@@ -79,5 +85,23 @@
 @mixin twitter($footer_img_facebook_height, $footer_img_facebook_width) {
     height: $footer_img_facebook_height;
     width: $footer_img_facebook_width;
+}
+
+@mixin footerFormText($footer_footer_form_text) {
+    font-size: $footer_footer_form_text;
+}
+
+@mixin footerTextarea($footer_textarea_height, $footer_textarea_width) {
+    height: $footer_textarea_height;
+    width: $footer_textarea_width;
+}
+
+@mixin footerSubmit($footer_form_submit_width, $footer_form_submit_height) {
+    height: $footer_form_submit_height;
+    width: $footer_form_submit_width;
+}
+
+@mixin footerWidth($footer_width) {
+    width: $footer_width;
 }
 

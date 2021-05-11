@@ -4,6 +4,11 @@ body {
   overflow-x: hidden;
 }
 
+#container {
+  height: 1500px;
+  overflow: hidden;
+}
+
 #logoimage {
   position: relative;
   border-radius: 8px;
@@ -70,7 +75,11 @@ body {
 }
 
 #footer {
+  position: relative;
   background-color: #546a75;
+  width: 3000px;
+  right: 10px;
+  height: 330px;
 }
 
 #footerImage {
@@ -104,7 +113,7 @@ body {
   position: relative;
   height: 25px;
   width: 25px;
-  bottom: 1015px;
+  bottom: 528px;
   left: 910px;
 }
 
@@ -112,5 +121,65 @@ body {
   position: relative;
   height: 25px;
   width: 25px;
+  bottom: 483px;
+  left: 880px;
+}
+
+#formHeader {
+  position: relative;
+  font-size: 35px;
+  bottom: 646px;
+  left: 1400px;
+}
+
+#fnameLabel {
+  position: relative;
+  bottom: 690px;
+  left: 1350px;
+}
+
+#fname {
+  position: relative;
+  bottom: 690px;
+  left: 1380px;
+}
+
+#lnameLabel {
+  position: relative;
+  bottom: 650px;
+  left: 1090px;
+}
+
+#lname {
+  position: relative;
+  bottom: 647px;
+  left: 1121px;
+}
+
+#subjectLabel {
+  position: relative;
+  bottom: 610px;
+  left: 830px;
+}
+
+#subject {
+  position: relative;
+  height: 80px;
+  width: 172px;
+  bottom: 530px;
+  left: 885px;
+}
+
+#input {
+  position: relative;
+  bottom: 36px;
+}
+
+#submitButton {
+  position: relative;
+  height: 50px;
+  width: 100px;
+  bottom: 550px;
+  left: 1500px;
 }
 /*# sourceMappingURL=style.css.map */
