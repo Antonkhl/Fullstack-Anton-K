@@ -41,3 +41,43 @@
     height: $header_vl_height;
     color: white;
 }
+
+@mixin horizontalLine($header_hl_border, $header_hl_border_radius, $header_hl_width) {
+    border: $header_hl_border;
+    border-radius: $header_hl_border_radius;
+    width: $header_hl_width
+}
+
+
+//footer
+
+@mixin footerBgc($footer_bgc) {
+    background-color: $footer_bgc;
+}
+
+@mixin borderstyle($footer_media_header_fontsize) {
+    border-style: $footer_media_header_fontsize;
+}
+
+@mixin footerExplination($footer_explination_width) {
+    width: $footer_explination_width;
+}
+
+@mixin footerMediaHeader($footer_media_header_fontsize) {
+    font-size: $footer_media_header_fontsize;
+}
+
+@mixin footerMediaText($footer_media_text_fontsize) {
+    font-size: $footer_media_text_fontsize;
+}
+
+@mixin facebookImg($footer_img_facebook_height, $footer_img_facebook_width) {
+    height: $footer_img_facebook_height;
+    width: $footer_img_facebook_width;
+}
+
+@mixin twitter($footer_img_facebook_height, $footer_img_facebook_width) {
+    height: $footer_img_facebook_height;
+    width: $footer_img_facebook_width;
+}
+

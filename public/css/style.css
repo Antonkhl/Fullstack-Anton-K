@@ -1,6 +1,7 @@
 body {
   background-color: #2c2b2a;
   position: relative;
+  overflow-x: hidden;
 }
 
 #logoimage {
@@ -23,6 +24,7 @@ body {
   display: inline-block;
   font-size: 30px;
   cursor: pointer;
+  z-index: 1;
 }
 
 #headerbutton1 {
@@ -32,12 +34,12 @@ body {
 
 #headerbutton2 {
   bottom: 150px;
-  left: 450px;
+  left: 500px;
 }
 
 #headerbutton3 {
   bottom: 150px;
-  left: 550px;
+  left: 650px;
 }
 
 #Loggedin {
@@ -45,8 +47,8 @@ body {
   font-size: 50px;
   color: white;
   text-align: center;
-  bottom: 290px;
-  left: 550px;
+  bottom: 490px;
+  left: 670px;
 }
 
 .vl {
@@ -55,6 +57,60 @@ body {
   height: 200px;
   color: white;
   bottom: 280px;
-  left: 1100px;
+  left: 1300px;
+}
+
+.hline {
+  position: relative;
+  border: 4px solid white;
+  border-radius: 2px;
+  width: 3100px;
+  bottom: 465px;
+  right: 300px;
+}
+
+#footer {
+  background-color: #546a75;
+}
+
+#footerImage {
+  border-radius: 8px;
+  height: 200px;
+  width: 300px;
+}
+
+#footerExplination {
+  position: relative;
+  width: 110px;
+  bottom: 210px;
+  left: 330px;
+}
+
+#socialmediaHeader {
+  position: relative;
+  font-size: 30px;
+  bottom: 430px;
+  left: 900px;
+}
+
+#socialmediaLinks {
+  position: relative;
+  font-size: 20px;
+  bottom: 440px;
+  left: 950px;
+}
+
+#facebook {
+  position: relative;
+  height: 25px;
+  width: 25px;
+  bottom: 1015px;
+  left: 910px;
+}
+
+#twitter {
+  position: relative;
+  height: 25px;
+  width: 25px;
 }
 /*# sourceMappingURL=style.css.map */

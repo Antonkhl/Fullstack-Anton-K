@@ -5,6 +5,7 @@
 body {
     @include bgc($bgc);
     @include position($position);
+    overflow-x: hidden;
 }
 
 //header
@@ -18,6 +19,7 @@ bottom: 10px;
 #headerbutton1, #headerbutton2, #headerbutton3 {
     @include position($position);
     @include headerButton($header_button_bgc, $header_button_border, $header_button_color, $header_button_padding, $header_button_text_align, $header_button_text_decoration, $header_button_display, $header_button_fontsize, $header_button_cursor);
+    z-index: 1;
 }
 
 #headerbutton1 {
@@ -27,26 +29,77 @@ left: 350px;
 
 #headerbutton2 {
     bottom: 150px;
-    left: 450px;
+    left: 500px;
 }
 
 #headerbutton3 {
     bottom: 150px;
-    left: 550px;
+    left: 650px;
 }
 
 #Loggedin {
     @include position($position);
     @include headerText($header_text_login_fontsize, $text_color, $header_text_login_textalign);
-   bottom: 290px;
-   left: 550px;
+   bottom: 490px;
+   left: 670px;
 }
 
 .vl {
     @include position($position);
     @include verticalLine($header_vl_borderleft, $header_vl_height);
     bottom: 280px;
-    left: 1100px;
+    left: 1300px;
 }
 
+.hline {
+    @include position($position);
+    @include horizontalLine($header_hl_border, $header_hl_border_radius, $header_hl_width);
+    bottom: 465px;
+    right: 300px;
+ 
+}
+
+
+//footer
+
+#footer {
+   @include footerBgc($footer_bgc);
+}
+
+#footerImage {
+    @include headerImg($border_radius, $header_logo_height, $header_logo_width);
+}
+
+#footerExplination {
+    @include position($position);
+    @include footerExplination($footer_explination_width);
+    bottom: 210px;
+    left: 330px;
+}
+
+#socialmediaHeader {
+    @include position($position);
+    @include footerMediaHeader($footer_media_header_fontsize);
+    bottom: 430px;
+    left: 900px;
+}
+
+#socialmediaLinks {
+    @include position($position);
+    @include footerMediaText($footer_media_text_fontsize);
+    bottom: 440px;
+    left: 950px;
+}
+
+#facebook {
+    @include position($position);
+    @include facebookImg($footer_img_facebook_height, $footer_img_facebook_width);
+    bottom: 1015px;
+    left: 910px;
+}
+
+#twitter {
+    @include position($position);
+    @include facebookImg($footer_img_facebook_height, $footer_img_facebook_width);
+}
 
