@@ -5,6 +5,8 @@
 body {
     @include bgc($bgc);
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 #container {
@@ -127,13 +129,50 @@ bottom: 1530px;
 .hlMain4 {
     @include position($position);
     @include horizontalLine($header_hl_border, $header_hl_border_radius, $header_hl_width);
-    bottom: 1720px;
+    bottom: 1690px;
 }
 
-#post1, #post2, #post3 {
-    
+#headline1 {
+    @include headlines($main_text_headline_fontsize);
+    @include position($position);
+    bottom: 2330px;
+    left: 1120px;
 } 
 
+#text1 {
+    @include text($main_text_fontsize, $main_text_color);
+    @include position($position);
+    bottom: 2350px;
+    left: 1050px;
+}
+
+#headline2 {
+    @include headlines($main_text_headline_fontsize);
+    @include position($position);
+    bottom: 2300px;
+    left: 1250px;
+}
+
+#text2 {
+    @include text($main_text_fontsize, $main_text_color);
+    @include position($position);
+    bottom: 2320px;
+    left: 960px; 
+}
+
+#headline3 {
+    @include headlines($main_text_headline_fontsize);
+    @include position($position);
+    bottom: 2250px;
+    left: 1300px;
+}
+
+#text3 {
+    @include text($main_text_fontsize, $main_text_color);
+    @include position($position);
+    bottom: 2270px;
+    left: 1290px; 
+}
 
 
 //footer
@@ -144,6 +183,7 @@ bottom: 1530px;
    @include footerWidth($footer_width);
    right: 10px;
    height: 500px;
+   bottom: 2180px;
 
 }
 
@@ -242,6 +282,93 @@ left: 1400px;
     left: 1500px;
 }
 
+// media-query
+
+@media only screen and (max-width: 600px) {
+#logoimage {
+    @include imgheader($header_mobile_height, $header_mobile_width);
+    left: 1px;
+}
+#headerbutton1, #headerbutton2, #headerbutton3 {
+@include headerButton($header_button_bgc, $header_button_border, $header_button_color, $header_button_padding, $header_button_text_align, $header_button_text_decoration, $header_button_display, $header_mobile_button_fontsize, $header_button_cursor);
+}
+
+#headerbutton1 {
+    @include buttonWidth($header_mobile_button_width);
+top: -90px;
+    left: 190px;
+}
+
+#headerbutton2 {
+    @include buttonWidth($header_mobile_button_width);
+    top: -90px;
+    left: 220px;
+}
+
+#register {
+    @include position($position);
+    right: 25px;
+}
+
+#headerbutton3 {
+    @include buttonWidth($header_mobile_button_width);
+    top: -90px;
+    left: 250px;
+}
+
+#aboutus {
+    @include position($position);
+    right: 19px;
+}
+
+#login {
+    @include position($position);
+    right: 10px;
+}
+
+.hline {
+    @include hline($header_mobile_hl_width);
+
+}
+
+.vl {
+    left: 490px;
+
+}
+
+#Loggedin {
+    @include loggedinTextmobile($header_mobile_loggedin_fontsize);
+    left: 250px;
+    bottom: 355px;
+}
+
+.hlMain {
+    position: relative;
+    overflow: hidden;
+    bottom: 1430px;
+
+}
+
+#popCategories, #popPosts {
+    @include popcategoriesmobile($index_main_header_fontsize);
+}
+
+#category1, #category2, #category3 {
+    @include mainpostsmobile($index_main_posts_fontsize);
+    bottom: 800px;
+}
+
+.hlMain2 {
+    bottom: 600px;
+}
+
+.hlMain3 {
+    bottom: 500px;
+}
+
+
+
+}
 
 
 

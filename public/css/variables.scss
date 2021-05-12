@@ -3,7 +3,7 @@ $bgc: #2c2b2a;
 $position: relative;
 $text_color: white;
 $overflow: hidden;
-$site_height: 1710px;
+$site_height: 1260px;
 
 
 //header
@@ -34,6 +34,8 @@ $main_vl_width: 30px;
 $main_text_color: white;
 $main_text_header_fontsize: 60px;
 $main_text_posts_fontsize: 50px;
+$main_text_headline_fontsize: 30px;
+$main_text_fontsize: 20px;
 
 
 //footer
@@ -51,4 +53,12 @@ $footer_form_submit_width: 100px;
 $footer_form_submit_height: 50px;
 $footer_width: 3000px;
 
-
+//media-query
+$header_mobile_height: 100px;
+$header_mobile_width: 150px;
+$header_mobile_button_fontsize: 15px;
+$header_mobile_button_width: 70px;
+$header_mobile_hl_width: 900px;
+$header_mobile_loggedin_fontsize: 15px;
+$index_main_header_fontsize: 30px;
+$index_main_posts_fontsize: 25px;

@@ -79,6 +79,14 @@ font-size: $main_text_header_fontsize;
     font-size: $main_text_posts_fontsize;
 }
 
+@mixin headlines($main_text_headline_fontsize) {
+    font-size: $main_text_headline_fontsize;
+}
+
+@mixin text($main_text_fontsize, $main_text_color) {
+    font-size: $main_text_fontsize;
+    color: $main_text_color;
+}
 
 
 
@@ -132,5 +140,43 @@ font-size: $main_text_header_fontsize;
     width: $footer_width;
 }
 
+//media-query
+
+@mixin imgheader($header_mobile_height, $header_mobile_width) {
+    height: $header_mobile_height;
+    width: $header_mobile_width,
+}
+
+@mixin headerButton($header_button_bgc, $header_button_border, $header_button_color, $header_button_padding, $header_button_text_align, $header_button_text_decoration, $header_button_display, $header_mobile_button_fontsize, $header_button_cursor) {
+    background-color: $header_button_bgc;
+    border: $header_button_border;
+    color: $header_button_color;
+    padding: $header_button_padding;
+    text-align: $header_button_text_align;
+    text-decoration: $header_button_text_decoration;
+    display: $header_button_display;
+    font-size: $header_mobile_button_fontsize;
+    cursor: $header_button_cursor;
+}
+
+@mixin buttonWidth($header_mobile_button_width) {
+    width: $header_mobile_button_width;
+}
+
+@mixin hline($header_mobile_hl_width) {
+    width: $header_mobile_hl_width;
+}
+ 
+@mixin loggedinTextmobile($header_mobile_loggedin_fontsize) {
+    font-size: $header_mobile_loggedin_fontsize;
+}
+
+@mixin popcategoriesmobile($index_main_header_fontsize) {
+    font-size: $index_main_header_fontsize;
+}
+
+@mixin mainpostsmobile($index_main_posts_fontsize) {
+    font-size: $index_main_posts_fontsize;
+}
 
 
