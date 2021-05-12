@@ -74,8 +74,9 @@ color: $main_text_color;
 font-size: $main_text_header_fontsize;
 }
 
-@mixin categories($main_text_color) {
+@mixin categories($main_text_color, $main_text_posts_fontsize) {
     color: $main_text_color;
+    font-size: $main_text_posts_fontsize;
 }
 
 

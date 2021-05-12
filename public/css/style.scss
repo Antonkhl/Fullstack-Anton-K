@@ -82,7 +82,7 @@ left: 160px;
 #popPosts {
 @include position($position);
 @include mainTextHeaders($main_text_color, $main_text_header_fontsize);
-bottom: 1800px;
+bottom: 2315px;
 left: 1230px;
 }
 
@@ -92,9 +92,48 @@ left: 1230px;
 bottom: 1530px;
 }
 
-#category1 {
-    
+#category1, #category2, #category3 {
+    @include position($position);
+    @include categories($main_text_color, $main_text_posts_fontsize);
 }
+
+#category1 {
+    bottom: 1570px;
+    left: 100px;
+}
+
+.hlMain2 {
+    @include position($position);
+    @include horizontalLine($header_hl_border, $header_hl_border_radius, $header_hl_width);
+    bottom: 1600px;
+}
+
+#category2 {
+    bottom: 1630px;
+    left: 100px;
+}
+
+.hlMain3 {
+    @include position($position);
+    @include horizontalLine($header_hl_border, $header_hl_border_radius, $header_hl_width);
+    bottom: 1650px;
+}
+
+#category3 {
+     bottom: 1680px;
+    left: 100px;
+}
+
+.hlMain4 {
+    @include position($position);
+    @include horizontalLine($header_hl_border, $header_hl_border_radius, $header_hl_width);
+    bottom: 1720px;
+}
+
+#post1, #post2, #post3 {
+    
+} 
+
 
 
 //footer

@@ -95,7 +95,7 @@ body {
   position: relative;
   color: white;
   font-size: 60px;
-  bottom: 1800px;
+  bottom: 2315px;
   left: 1230px;
 }
 
@@ -105,6 +105,51 @@ body {
   border-radius: 2px;
   width: 3100px;
   bottom: 1530px;
+}
+
+#category1, #category2, #category3 {
+  position: relative;
+  color: white;
+  font-size: 50px;
+}
+
+#category1 {
+  bottom: 1570px;
+  left: 100px;
+}
+
+.hlMain2 {
+  position: relative;
+  border: 4px solid white;
+  border-radius: 2px;
+  width: 3100px;
+  bottom: 1600px;
+}
+
+#category2 {
+  bottom: 1630px;
+  left: 100px;
+}
+
+.hlMain3 {
+  position: relative;
+  border: 4px solid white;
+  border-radius: 2px;
+  width: 3100px;
+  bottom: 1650px;
+}
+
+#category3 {
+  bottom: 1680px;
+  left: 100px;
+}
+
+.hlMain4 {
+  position: relative;
+  border: 4px solid white;
+  border-radius: 2px;
+  width: 3100px;
+  bottom: 1720px;
 }
 
 #footer {
