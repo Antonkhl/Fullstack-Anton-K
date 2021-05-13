@@ -149,28 +149,28 @@ bottom: 1530px;
 #headline2 {
     @include headlines($main_text_headline_fontsize);
     @include position($position);
-    bottom: 2300px;
+    bottom: 2325px;
     left: 1250px;
 }
 
 #text2 {
     @include text($main_text_fontsize, $main_text_color);
     @include position($position);
-    bottom: 2320px;
-    left: 960px; 
+    bottom: 2340px;
+    left: 1050px; 
 }
 
 #headline3 {
     @include headlines($main_text_headline_fontsize);
     @include position($position);
-    bottom: 2250px;
+    bottom: 2295px;
     left: 1300px;
 }
 
 #text3 {
     @include text($main_text_fontsize, $main_text_color);
     @include position($position);
-    bottom: 2270px;
+    bottom: 2320px;
     left: 1290px; 
 }
 
@@ -183,7 +183,7 @@ bottom: 1530px;
    @include footerWidth($footer_width);
    right: 10px;
    height: 500px;
-   bottom: 2180px;
+   bottom: 2234px;
 
 }
 
@@ -328,7 +328,7 @@ top: -90px;
 
 .hline {
     @include hline($header_mobile_hl_width);
-
+bottom: 340px;
 }
 
 .vl {
@@ -344,9 +344,6 @@ top: -90px;
 
 .hlMain {
     position: relative;
-    overflow: hidden;
-    bottom: 1430px;
-
 }
 
 #popCategories, #popPosts {
@@ -355,20 +352,127 @@ top: -90px;
 
 #category1, #category2, #category3 {
     @include mainpostsmobile($index_main_posts_fontsize);
-    bottom: 800px;
+    
 }
 
 .hlMain2 {
-    bottom: 600px;
+    bottom: 960px;
 }
 
 .hlMain3 {
-    bottom: 500px;
+    bottom: 910px;
+}
+
+#footer {
+    bottom: 1215px;
+}
+
+.hlMain4 {
+    bottom: 1070px;
+}
+
+#popCategories {
+    bottom: 859px;
+    left: 10px;
+  
+}
+
+.vlMain {
+@include vlmain($index_mobile_vlmain_height);
+left: 285px;
+bottom: 350px;
+}
+
+#popPosts {
+    bottom: 1218px;
+    left: 360px;
+}
+
+#category1 {
+    bottom: 880px;
+    left: 5px;
+}
+
+#category2 {
+    bottom: 900px;
+    left: 5px;
+}
+
+#category3 {
+    bottom: 926px;
+    left: 5px;
+} 
+
+#headline1, #headline2, #headline3  {
+    @include loggedinTextmobile($header_mobile_loggedin_fontsize);
+}
+
+#headline1 {
+bottom: 1210px;
+left: 310px;
+}
+
+#headline2 {
+bottom: 1207px;
+left: 380px;
+}
+
+#headline3 {
+    bottom: 1210px;
+left: 420px;
+}
+
+#text1, #text2, #text3 {
+    @include mainText($index_mobile_text_fontsize);
+}
+
+#text1 {
+    bottom: 1220px;
+    left: 300px;
+}
+
+#text2 {
+    bottom: 1220px;
+    left: 300px;
+}
+
+#text3 {
+    bottom: 1220px;
+    left: 415px;
+}
+
+#footerImage {
+    @include imgheader($header_mobile_height, $header_mobile_width);
+    @include position($position);
+    left: 6px;
+}
+
+#footerExplination {
+    @include mainText($index_mobile_text_fontsize);
+    bottom: 100px;
+    left: 180px;
+}
+
+#socialmediaHeader {
+   @include loggedinTextmobile($header_mobile_loggedin_fontsize);
+   bottom: 202px;
+   left: 330px;
+}
+
+#socialmediaLinks {
+    @include mainText($index_mobile_text_fontsize);
+    bottom: 220px;
+    left: 350px;
+}
+
+
 }
 
 
 
-}
+
+
+
 
 
 

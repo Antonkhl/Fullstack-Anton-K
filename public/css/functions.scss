@@ -179,4 +179,12 @@ font-size: $main_text_header_fontsize;
     font-size: $index_main_posts_fontsize;
 }
 
+@mixin vlmain($index_mobile_vlmain_height) {
+height: $index_mobile_vlmain_height;
+}
+
+@mixin mainText($index_mobile_text_fontsize) {
+    font-size: $index_mobile_text_fontsize;
+}
+
 

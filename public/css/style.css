@@ -6,7 +6,7 @@ body {
 }
 
 #container {
-  height: 1260px;
+  height: 1120px;
   overflow: hidden;
 }
 
@@ -172,7 +172,7 @@ body {
 #headline2 {
   font-size: 30px;
   position: relative;
-  bottom: 2300px;
+  bottom: 2325px;
   left: 1250px;
 }
 
@@ -180,14 +180,14 @@ body {
   font-size: 20px;
   color: white;
   position: relative;
-  bottom: 2320px;
-  left: 960px;
+  bottom: 2340px;
+  left: 1050px;
 }
 
 #headline3 {
   font-size: 30px;
   position: relative;
-  bottom: 2250px;
+  bottom: 2295px;
   left: 1300px;
 }
 
@@ -195,7 +195,7 @@ body {
   font-size: 20px;
   color: white;
   position: relative;
-  bottom: 2270px;
+  bottom: 2320px;
   left: 1290px;
 }
 
@@ -205,7 +205,7 @@ body {
   width: 3000px;
   right: 10px;
   height: 500px;
-  bottom: 2180px;
+  bottom: 2234px;
 }
 
 #footerImage {
@@ -355,6 +355,7 @@ body {
   }
   .hline {
     width: 900px;
+    bottom: 340px;
   }
   .vl {
     left: 490px;
@@ -366,21 +367,100 @@ body {
   }
   .hlMain {
     position: relative;
-    overflow: hidden;
-    bottom: 1430px;
   }
   #popCategories, #popPosts {
     font-size: 30px;
   }
   #category1, #category2, #category3 {
-    font-size: 25px;
-    bottom: 800px;
+    font-size: 20px;
   }
   .hlMain2 {
-    bottom: 600px;
+    bottom: 960px;
   }
   .hlMain3 {
-    bottom: 500px;
+    bottom: 910px;
+  }
+  #footer {
+    bottom: 1215px;
+  }
+  .hlMain4 {
+    bottom: 1070px;
+  }
+  #popCategories {
+    bottom: 859px;
+    left: 10px;
+  }
+  .vlMain {
+    height: 500px;
+    left: 285px;
+    bottom: 350px;
+  }
+  #popPosts {
+    bottom: 1218px;
+    left: 360px;
+  }
+  #category1 {
+    bottom: 880px;
+    left: 5px;
+  }
+  #category2 {
+    bottom: 900px;
+    left: 5px;
+  }
+  #category3 {
+    bottom: 926px;
+    left: 5px;
+  }
+  #headline1, #headline2, #headline3 {
+    font-size: 15px;
+  }
+  #headline1 {
+    bottom: 1210px;
+    left: 310px;
+  }
+  #headline2 {
+    bottom: 1207px;
+    left: 380px;
+  }
+  #headline3 {
+    bottom: 1210px;
+    left: 420px;
+  }
+  #text1, #text2, #text3 {
+    font-size: 10px;
+  }
+  #text1 {
+    bottom: 1220px;
+    left: 300px;
+  }
+  #text2 {
+    bottom: 1220px;
+    left: 300px;
+  }
+  #text3 {
+    bottom: 1220px;
+    left: 415px;
+  }
+  #footerImage {
+    height: 100px;
+    width: 150px;
+    position: relative;
+    left: 6px;
+  }
+  #footerExplination {
+    font-size: 10px;
+    bottom: 100px;
+    left: 180px;
+  }
+  #socialmediaHeader {
+    font-size: 15px;
+    bottom: 202px;
+    left: 330px;
+  }
+  #socialmediaLinks {
+    font-size: 10px;
+    bottom: 220px;
+    left: 350px;
   }
 }
 /*# sourceMappingURL=style.css.map */
