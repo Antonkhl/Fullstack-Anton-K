@@ -461,13 +461,80 @@ left: 420px;
 
 #socialmediaLinks {
     @include mainText($index_mobile_text_fontsize);
-    bottom: 220px;
-    left: 350px;
+    bottom: 212px;
+    left: 354px;
+}
+
+#facebook {
+    @include footerMediaFooter($index_mobile_socialmedia_height, $index_mobile_socialmedia_width);
+    left: 333px;
+    bottom: 257px;
+}
+
+#twitter {
+    @include footerMediaFooter($index_mobile_socialmedia_height, $index_mobile_socialmedia_width);
+    left: 317px;
+    bottom: 234px;
+}
+
+#formHeader {
+    @include ContactUs($index_mobile_scontactus_fontsize);
+    left: 482px;
+    bottom: 312px;
+}
+
+#fnameLabel, #lnameLabel, #subjectLabel  {
+ @include mainText($index_mobile_text_fontsize);
+}
+
+#fnameLabel {
+    left: 439px;
+    bottom: 317px;
+}
+
+#fname, #lname, #subject {
+    @include formsize($index_mobile_forms_height, $index_mobile_forms_width);
+}
+
+#fname {
+    left: 443px;
+    bottom: 316px;
+}
+
+#lnameLabel {
+    left: 286px;
+    bottom: 293px;
 }
 
 
+#lname {
+    left: 292px;
+    bottom: 290px;
+
 }
 
+#subjectLabel {
+    left: 133px;
+    bottom: 267px;
+}
+
+#subject {
+    @include subjecTextarea($index_mobile_textarea_height, $index_mobile_textarea_width);
+    left: 155px;
+    bottom: 230px;
+}
+
+#container {
+    @include siteRestriction($site_height, $overflow);
+}
+
+#submitButton {
+    @include mobileSubmit($footer_form_submit_width, $footer_form_submit_height);
+    left: 510px;
+    bottom: 250px;
+}
+
+}
 
 
 

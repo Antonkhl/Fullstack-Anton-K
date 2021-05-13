@@ -187,4 +187,33 @@ height: $index_mobile_vlmain_height;
     font-size: $index_mobile_text_fontsize;
 }
 
+@mixin footerMediaFooter($index_mobile_socialmedia_height, $index_mobile_socialmedia_width) {
+    height: $index_mobile_socialmedia_height;
+    width: $index_mobile_socialmedia_width;
+}
+
+@mixin ContactUs($index_mobile_scontactus_fontsize) {
+    font-size: $index_mobile_scontactus_fontsize;
+}
+
+@mixin formsize($index_mobile_forms_height, $index_mobile_forms_width) {
+    height: $index_mobile_forms_height;
+    width: $index_mobile_forms_width;
+}
+
+@mixin subjecTextarea($index_mobile_textarea_height, $index_mobile_textarea_width) {
+    height: $index_mobile_textarea_height;
+    width: $index_mobile_textarea_width;
+}
+
+@mixin siteRestriction($site_height, $overflow)  {
+    height: $index_mobile_site_height;
+    overflow: $overflow;
+}
+
+@mixin mobileSubmit($footer_form_submit_width, $footer_form_submit_height) {
+    height: $footer_form_submit_height;
+    width: $footer_form_submit_width;
+}
+
 

@@ -6,7 +6,7 @@ body {
 }
 
 #container {
-  height: 1120px;
+  height: 560px;
   overflow: hidden;
 }
 
@@ -303,8 +303,8 @@ body {
 
 #submitButton {
   position: relative;
-  height: 50px;
-  width: 100px;
+  height: 25px;
+  width: 60px;
   bottom: 550px;
   left: 1500px;
 }
@@ -459,8 +459,68 @@ body {
   }
   #socialmediaLinks {
     font-size: 10px;
-    bottom: 220px;
-    left: 350px;
+    bottom: 212px;
+    left: 354px;
+  }
+  #facebook {
+    height: 12px;
+    width: 12px;
+    left: 333px;
+    bottom: 257px;
+  }
+  #twitter {
+    height: 12px;
+    width: 12px;
+    left: 317px;
+    bottom: 234px;
+  }
+  #formHeader {
+    font-size: 17px;
+    left: 482px;
+    bottom: 312px;
+  }
+  #fnameLabel, #lnameLabel, #subjectLabel {
+    font-size: 10px;
+  }
+  #fnameLabel {
+    left: 439px;
+    bottom: 317px;
+  }
+  #fname, #lname, #subject {
+    height: 10px;
+    width: 90px;
+  }
+  #fname {
+    left: 443px;
+    bottom: 316px;
+  }
+  #lnameLabel {
+    left: 286px;
+    bottom: 293px;
+  }
+  #lname {
+    left: 292px;
+    bottom: 290px;
+  }
+  #subjectLabel {
+    left: 133px;
+    bottom: 267px;
+  }
+  #subject {
+    height: 40px;
+    width: 86px;
+    left: 155px;
+    bottom: 230px;
+  }
+  #container {
+    height: 560px;
+    overflow: hidden;
+  }
+  #submitButton {
+    height: 25px;
+    width: 60px;
+    left: 510px;
+    bottom: 250px;
   }
 }
 /*# sourceMappingURL=style.css.map */
