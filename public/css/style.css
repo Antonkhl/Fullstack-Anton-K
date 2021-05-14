@@ -6,7 +6,7 @@ body {
 }
 
 #container {
-  height: 560px;
+  height: 1280px;
   overflow: hidden;
 }
 
@@ -203,7 +203,7 @@ body {
   position: relative;
   background-color: #546a75;
   width: 3000px;
-  right: 10px;
+  left: 0px;
   height: 500px;
   bottom: 2234px;
 }
