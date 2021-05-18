@@ -1,0 +1,12 @@
+#footer {
+  position: relative;
+  bottom: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+  #container {
+    height: 770px;
+    overflow: hidden;
+  }
+}
+/*# sourceMappingURL=login.css.map */

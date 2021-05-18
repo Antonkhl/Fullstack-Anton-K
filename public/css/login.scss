@@ -1,0 +1,13 @@
+@import './functions.scss';
+@import './variables.scss';
+
+#footer {
+    @include position($position);
+    bottom: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+#container {
+    @include siteRestrictionLogin($login_mobile_site_height, $overflow);
+}
+}

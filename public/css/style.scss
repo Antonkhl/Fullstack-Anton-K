@@ -180,6 +180,9 @@ bottom: 1530px;
 
 .logIn {
     @include loginBorder($login_bgc, $border_login_from, $login_border_radius, $login_height, $login_width);
+    @include position($position);
+    left: 450px;
+    bottom: 370px;
 }
 
 #logintextlogin {
@@ -216,9 +219,16 @@ bottom: 1530px;
     left: 134px;
 }
 
+
 #loginInput {
+    @include loginButton($login_button_height, $login_button_width, $login_button_fontsize);
+    @include position($position);
+    left: 200px;
+    top: 120px;
     bottom: 100px;
 }
+
+
 
 
 
@@ -572,15 +582,59 @@ left: 420px;
     bottom: 230px;
 }
 
-#container {
-   
-}
 
 #submitButton {
     @include mobileSubmit($footer_form_submit_width, $footer_form_submit_height);
     left: 510px;
     bottom: 250px;
 }
+
+#logintextlogin {
+@include loginheaderMobile ($login_fontsize_mobile);
+left: 130px;
+top: -6px;
+}
+
+#usernameemailabel  {
+    @include loginlabelmobile($login_Label_fontsize_mobile);
+}
+
+.logIn {
+@include loginBorder($login_bgc, $border_login_from, $login_border_radius, $login_height_mobile, $login_width_mobile);
+left: 130px;
+bottom: 320px;
+}
+
+#usernameemailinput {
+   @include inputsizemobile($login_input_height_mobile, $login_input_width_mobile); 
+   left: 4px;
+   top: -12px;
+}
+
+#passwordlabel {
+    @include loginlabelmobile($login_Label_fontsize_mobile);
+    left: 53px;
+    top: 40px;
+   
+}
+
+#passworldinput {
+    @include inputsizemobile($login_input_height_mobile, $login_input_width_mobile); 
+    left: 67px;
+    top: 40px;
+}
+
+#loginInput {
+   @include loginButton($login_button_height_mobile, $login_button_width_mobile, $login_button_fontsize_mobile);
+   left: 100px;
+   top: 80px;
+
+}
+
+#container {
+    @include siteRestriction($index_mobile_site_height, $overflow);
+}
+
 
 
 }

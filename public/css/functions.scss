@@ -112,6 +112,12 @@ width: $login_width;
     width: $login_input_width;
 }
 
+@mixin loginButton($login_button_height, $login_button_width, $login_button_fontsize) {
+    height: $login_button_height;
+    width: $login_button_width;
+    font-size: $login_button_fontsize;
+}
+
 
 //footer
 
@@ -237,6 +243,39 @@ height: $index_mobile_vlmain_height;
 @mixin mobileSubmit($footer_form_submit_width, $footer_form_submit_height) {
     height: $footer_form_submit_height;
     width: $footer_form_submit_width;
+}
+
+@mixin loginheaderMobile ($login_fontsize_mobile) {
+    font-size: $login_fontsize_mobile;
+}
+
+@mixin loginlabelmobile($login_Label_fontsize_mobile) {
+font-size: $login_Label_fontsize_mobile;
+}
+
+
+@mixin loginBorder($login_bgc, $border_login_from, $login_border_radius, $login_height_mobile, $login_width_mobile) {
+    background-color: $login_bgc;
+    border: $border_login_from;
+    border-radius: $login_border_radius;
+    height: $login_height_mobile;
+    width: $login_width_mobile;
+    }
+
+@mixin inputsizemobile($login_input_height_mobile, $login_input_width_mobile) {
+        height: $login_input_height_mobile;
+        width: $login_input_width_mobile;
+    }
+
+@mixin loginButton($login_button_height_mobile, $login_button_width_mobile, $login_button_fontsize_mobile) {
+height: $login_button_height_mobile;
+width: $login_button_width_mobile;
+font-size: $login_button_fontsize_mobile;
+}
+
+@mixin siteRestrictionLogin($login_mobile_site_height, $overflow)  {
+    height: $login_mobile_site_height;
+    overflow: $overflow;
 }
 
 
