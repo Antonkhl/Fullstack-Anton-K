@@ -37,6 +37,17 @@ $main_text_posts_fontsize: 50px;
 $main_text_headline_fontsize: 30px;
 $main_text_fontsize: 20px;
 
+//login.ejs
+$login_bgc: white;
+$border_login_from: 2px solid black;
+$login_border_radius: 9px;
+$login_height: 500px;
+$login_width: 600px;
+$login_fontsize: 30px;
+$login_Label_fontsize: 40px;
+$login_input_height: 25px;
+$login_input_width: 250px;
+
 
 //footer
 $footer_bgc: #546a75;
@@ -72,5 +83,6 @@ $index_mobile_forms_width: 90px;
 $index_mobile_textarea_height: 40px;
 $index_mobile_textarea_width: 86px;
 $index_mobile_site_height: 560px;
+$index_mobile_site_width: 750px;
 $footer_form_submit_width: 60px;
 $footer_form_submit_height: 25px;

@@ -47,7 +47,7 @@ left: 350px;
     @include position($position);
     @include headerText($header_text_login_fontsize, $text_color, $header_text_login_textalign);
    bottom: 490px;
-   left: 670px;
+   left: 655px;
 }
 
 .vl {
@@ -86,7 +86,7 @@ left: 160px;
 @include position($position);
 @include mainTextHeaders($main_text_color, $main_text_header_fontsize);
 bottom: 2315px;
-left: 1230px;
+left: 1110px;
 }
 
 .hlMain {
@@ -137,43 +137,89 @@ bottom: 1530px;
     @include headlines($main_text_headline_fontsize);
     @include position($position);
     bottom: 2330px;
-    left: 1120px;
+    left: 930px;
 } 
 
 #text1 {
     @include text($main_text_fontsize, $main_text_color);
     @include position($position);
     bottom: 2350px;
-    left: 1050px;
+    left: 930px;
 }
 
 #headline2 {
     @include headlines($main_text_headline_fontsize);
     @include position($position);
     bottom: 2325px;
-    left: 1250px;
+    left: 1100px;
 }
 
 #text2 {
     @include text($main_text_fontsize, $main_text_color);
     @include position($position);
     bottom: 2340px;
-    left: 1050px; 
+    left: 930px; 
 }
 
 #headline3 {
     @include headlines($main_text_headline_fontsize);
     @include position($position);
     bottom: 2295px;
-    left: 1300px;
+    left: 1200px;
 }
 
 #text3 {
     @include text($main_text_fontsize, $main_text_color);
     @include position($position);
     bottom: 2320px;
-    left: 1290px; 
+    left: 1190px; 
 }
+
+
+//login.ejs
+
+.logIn {
+    @include loginBorder($login_bgc, $border_login_from, $login_border_radius, $login_height, $login_width);
+}
+
+#logintextlogin {
+    @include loginheader($login_fontsize);
+    @include position($position);
+    left: 250px;
+    bottom: 20px;
+}
+
+#usernameemailabel {
+    @include loginlabel($login_Label_fontsize);
+    @include position($position);
+    bottom: 10px;
+}
+
+#usernameemailinput {
+    @include position($position);
+    @include inputsize($login_input_height, $login_input_width);
+    bottom: 16px;
+    left: 20px;
+}
+
+#passwordlabel {
+    @include loginlabel($login_Label_fontsize);
+    @include position($position);
+    top: 50px;
+    left: 110px;
+}
+
+#passworldinput {
+    @include position($position);
+    @include inputsize($login_input_height, $login_input_width);
+    top: 45px;
+    left: 134px;
+}
+
+#loginInput {
+    bottom: 100px;
+}
+
 
 
 //footer
@@ -203,72 +249,72 @@ bottom: 1530px;
     @include position($position);
     @include footerMediaHeader($footer_media_header_fontsize);
     bottom: 430px;
-    left: 900px;
+    left: 600px;
 }
 
 #socialmediaLinks {
     @include position($position);
     @include footerMediaText($footer_media_text_fontsize);
     bottom: 440px;
-    left: 950px;
+    left: 650px;
 }
 
 #facebook {
     @include position($position);
     @include facebookImg($footer_img_facebook_height, $footer_img_facebook_width);
     bottom: 528px;
-    left: 910px;
+    left: 610px;
 }
 
 #twitter {
     @include position($position);
     @include facebookImg($footer_img_facebook_height, $footer_img_facebook_width);
     bottom: 483px;
-    left: 880px;
+    left: 580px;
 }
 
 #formHeader {
 @include position($position);
  @include footerFormText($footer_footer_form_text);
 bottom: 646px;
-left: 1400px;
+left: 1100px;
 }
 
 #fnameLabel {
     @include position($position);
    bottom: 690px;
-   left: 1350px;
+   left: 1010px;
 }
 
 #fname {
     @include position($position);
     bottom: 690px;
-    left: 1380px;
+    left: 1040px;
 }
 
 #lnameLabel {
     @include position($position);
     bottom: 650px;
-    left: 1090px;
+    left: 760px;
 }
 
 #lname {
     @include position($position);
     bottom: 647px;
-    left: 1121px;
+    left: 791px;
 }
 
 #subjectLabel {
     @include position($position);
     bottom: 610px;
-    left: 830px;
+    left: 510px;
 }
 
 #subject {
     @include position($position);
     @include footerTextarea($footer_textarea_height, $footer_textarea_width);
     bottom: 530px;
-    left: 885px;
+    left: 565px;
 }
 
 #input {
@@ -280,7 +326,7 @@ left: 1400px;
     @include position($position);
     @include footerSubmit($footer_form_submit_width, $footer_form_submit_height);
     bottom: 550px;
-    left: 1500px;
+    left: 1170px;
 }
 
 // media-query
@@ -527,7 +573,7 @@ left: 420px;
 }
 
 #container {
-    @include siteRestriction($index_mobile_site_height, $overflow);
+   
 }
 
 #submitButton {

@@ -8,7 +8,6 @@
 
 @mixin overflow($overflow, $site_height) {
     overflow: $overflow;
-    overflow-x: $overflow;
     height: $site_height;
 }
 
@@ -16,6 +15,7 @@
     height: $site_height;
     overflow: $overflow;
 }
+
 
 //header
 @mixin headerImg($border_radius, $header_logo_height, $header_logo_width) {
@@ -87,6 +87,31 @@ font-size: $main_text_header_fontsize;
     font-size: $main_text_fontsize;
     color: $main_text_color;
 }
+
+
+//login.ejs
+
+@mixin loginBorder($login_bgc, $border_login_from, $login_border_radius, $login_height, $login_width) {
+background-color: $login_bgc;
+border: $border_login_from;
+border-radius: $login_border_radius;
+height: $login_height;
+width: $login_width;
+}
+
+@mixin loginheader($login_fontsize) {
+    font-size: $login_fontsize;
+}
+
+@mixin loginlabel($login_Label_fontsize) {
+ font-size: $login_Label_fontsize;
+}
+
+@mixin inputsize($login_input_height, $login_input_width) {
+    height: $login_input_height;
+    width: $login_input_width;
+}
+
 
 //footer
 
