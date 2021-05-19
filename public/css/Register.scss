@@ -1,3 +1,90 @@
 @import './functions.scss';
 @import './variables.scss';
 
+
+
+#emailinputlabel {
+    @include position($position);
+    top: 110px;
+  right: 343px;
+}
+
+#emailinput {
+    @include position($position);
+    top: 55px;
+    left: 226px;
+
+}
+
+#passwordlabel {
+    top: 170px;
+   left: -225px;
+}
+
+#passworldinput {
+    top: 95px;
+    left: 227px;
+}
+
+#loginInput {
+    top: 190px;
+    left: -50px;
+}
+
+#usernameemailabel {
+left: 30px;
+}
+
+#usernameemailinput {
+left: 50px;
+}
+
+.logIn {
+    left: 610px;
+}
+
+#footer {
+    bottom: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+    .logIn {
+        left: 150px;
+    }
+
+    #emailinputlabel {
+        @include loginlabelmobile($login_Label_fontsize_mobile);
+        right: 163px;
+        top: 50px;
+        
+    }
+
+    #emailinput {
+        @include inputsizemobile($login_input_height_mobile, $login_input_width_mobile);
+        left: 145px;
+        top: 25px;
+    }
+
+    #passwordlabel {
+        top: 85px;
+        left: -100px;
+    }
+
+    #passworldinput {
+        top: 47px;
+        left: 143px;
+    }
+
+    #loginInput {
+     left: -20px;
+     top: 100px;
+   
+    }
+
+    #container {
+        height: 600px;
+    }
+    
+
+
+}
