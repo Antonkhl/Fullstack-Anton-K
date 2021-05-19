@@ -229,7 +229,15 @@ bottom: 1530px;
 }
 
 
+//Register.ejs
 
+#emailinputlabel {
+    @include loginlabel($login_Label_fontsize);
+}
+
+#emailinput {
+    @include inputsize($login_input_height, $login_input_width);
+}
 
 
 //footer

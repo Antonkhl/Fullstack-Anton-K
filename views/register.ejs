@@ -2,57 +2,82 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/functions.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/register.css">
 </head>
 <body>
-    <div id="header">
-        <a href="/"><img src="img/site_logo.png" alt=""></a>
-        <a href="logIn"><button type="button" id="login"> Log In</button></a>
-    <a href="register"><button type="button" id="register"><b>Register</b></button></a>
-    <a href="aboutus"><button type="button" id="aboutus">About Us</button></a>
-        <h1 id="Loggedin">Not logged in</h1>
-    </div>
+    <div id="container">
+
+<div id="header">
+    <div>
+    <a href="/">
+    <img id="logoimage" src="img/site_logo.png" alt="">
+</a>
+</div>
+    <a href="logIn"><button id="headerbutton1" type="button" id="login"> <div id="login"> Log In</div></button></a>
+    <a href="register"><button id="headerbutton2" type="button" id="register"> <div id="register"><b>Register</b></div></button></a>
+    <a href="aboutus"><button id="headerbutton3" type="button" id="aboutus"> <div id="aboutus">About Us</div></button></a>
+    <div class="vl"></div>
+    <h1 id="Loggedin">not 
+        <br>Logged in</h1>
+
+        <hr class="hline">
+        
+</div>
     
-<div id=register>
+    
+<div class="logIn">
     <form action="">
-        <p>Register</p>
-        <label for="username">Username</label>
-        <input type="text" name="username" placeholder="Username" required>
-        <label for="email">Email</label>
-        <input type="text" name="email" placeholder="Email" required>
-        <label for="password">Password</label>
-        <input type="password" name="password" placeholder="Password" required>
-        <input type="submit" value="Register">
+        <p id="logintextlogin">Register</p>
+        <label id="usernameemailabel" for="username">Username</label>
+        <input id="usernameemailinput" type="text" name="username" placeholder="Username" required>
+        <label id="emailinputlabel" for="email">Email</label>
+        <input id="emailinput" type="text" name="email" placeholder="Email" required>
+        <label id="passwordlabel" for="password">Password:</label>
+        <input id="passworldinput" type="password" name="password" placeholder="Password" required>
+        <input id="loginInput" type="submit" value="Register">
     </form>
 </div>
     
-    <div id="footer">
-        <img src="img/site_logo.png" alt="">
-        <p>La foramlita is a forum website for people like you! Feel free to talk about anything here.</p>
-        <p>La formalita is a non-profit orginazation.</p>
-        <h3>Social medias</h3>
-        <p>La_formalita</p>
-        <p>@La_formalita</p>
-        <img src="img/facebook_logo.png" alt="">
-        <img src="img/twitter_logo.png" alt="">
-    
-        <div id="form">
-            <form id="contactus">
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
-    
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-    
-        <label for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." ></textarea>
-    
-        <input type="submit" value="Submit">
-            </form>
-        </div>
-    
-    
+<div id="footer">
+    <img id="footerImage" src="img/site_logo.png" alt="">
+    <div id="footerExplination">
+    <p>La foramlita is a forum website for people like you! Feel free to talk about anything here.</p>
+    <p>La formalita is a non-profit orginazation.</p>
+</div>
+    <h3 id="socialmediaHeader">Social medias</h3>
+    <div id="socialmediaLinks">
+    <p>La_formalita</p>
+    <p>@La_formalita</p>
     </div>
+    <img id="facebook" src="img/facebook_logo.png" alt="">
+    <img id="twitter" src="img/twitter_logo.png" alt="">
+
+    <div id="form">
+    <h3 id="formHeader">Contact Us</h3>
+    <form id="contactus">
+        <div id="input">
+    <label id="fnameLabel" for="fname"><b>First Name</b></label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label id="lnameLabel" for="lname"><b>Last Name</b></label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label id="subjectLabel" for="subject"><b>Subject</b></label>
+    <textarea id="subject" name="subject" placeholder="Write something.." ></textarea>
+</div>
+    <input id="submitButton" type="submit" value="Submit">
+        </form>
+    </div>
+
+
+</div>
+
+</div>
 </body>
 </html>

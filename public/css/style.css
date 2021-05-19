@@ -256,6 +256,15 @@ body {
   bottom: 100px;
 }
 
+#emailinputlabel {
+  font-size: 40px;
+}
+
+#emailinput {
+  height: 25px;
+  width: 250px;
+}
+
 #footer {
   position: relative;
   background-color: #546a75;
