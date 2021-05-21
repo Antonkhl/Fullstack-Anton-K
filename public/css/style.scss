@@ -239,6 +239,41 @@ bottom: 1530px;
     @include inputsize($login_input_height, $login_input_width);
 }
 
+//Loginsucessful.ejs
+
+#loginsucessful {
+    @include position($position);
+    @include loginsucessfultext($loginsucessful_fontsize, $loginsucessful_color);
+left: 480px;
+bottom: 400px;
+}
+
+#getstartednow {
+    @include position($position);
+    @include getstartednowtext($loginsucessful_color, $getstartednow_fontsize);
+    bottom: 420px;
+    left: 625px;
+}
+
+#logoimagesucess {
+    @include position($position);
+    @include headerImg($border_radius, $header_logo_height, $header_logo_width);
+    left: 630px;
+    bottom: 400px;
+}
+
+#or {
+    @include position($position);
+    @include getstartednowtext($loginsucessful_color, $getstartednow_fontsize);
+    left: 690px;
+    bottom: 440px;
+}
+
+#loginbuttonsucess {
+    @include position($position);
+}
+
+
 
 //footer
 
@@ -643,7 +678,27 @@ bottom: 320px;
     @include siteRestriction($index_mobile_site_height, $overflow);
 }
 
+#loginsucessful {
+    @include loginsucessfultextmobile($loginsucessful_fontsize_mobile);
+    left: 170px;
+    bottom: 350px;
+}
 
+#getstartednow {
+    @include getstartednowMobile($getstartednow_fontsize_mobile);
+    left: 240px;
+    bottom: 360px;
+}
+
+#logoimagesucess {
+    @include imgheader($header_mobile_height, $header_mobile_width);
+    left: 235px;
+    bottom: 360px;
+}
+
+#loginbuttonsucess {
+    @include headerButtonRegister($header_button_bgc, $header_button_border, $header_button_color, $header_button_padding, $header_button_text_align, $header_button_text_decoration, $header_button_display, $header_mobile_button_fontsize, $header_button_cursor, $registersucessful_button_height, $registersucessful_button_width);
+}
 
 }
 

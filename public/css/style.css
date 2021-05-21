@@ -265,6 +265,43 @@ body {
   width: 250px;
 }
 
+#loginsucessful {
+  position: relative;
+  font-size: 80px;
+  color: white;
+  left: 480px;
+  bottom: 400px;
+}
+
+#getstartednow {
+  position: relative;
+  color: white;
+  font-size: 40px;
+  bottom: 420px;
+  left: 625px;
+}
+
+#logoimagesucess {
+  position: relative;
+  border-radius: 8px;
+  height: 200px;
+  width: 300px;
+  left: 630px;
+  bottom: 400px;
+}
+
+#or {
+  position: relative;
+  color: white;
+  font-size: 40px;
+  left: 690px;
+  bottom: 440px;
+}
+
+#loginbuttonsucess {
+  position: relative;
+}
+
 #footer {
   position: relative;
   background-color: #546a75;
@@ -628,6 +665,35 @@ body {
   #container {
     height: 560px;
     overflow: hidden;
+  }
+  #loginsucessful {
+    font-size: 40px;
+    left: 170px;
+    bottom: 350px;
+  }
+  #getstartednow {
+    font-size: 20px;
+    left: 240px;
+    bottom: 360px;
+  }
+  #logoimagesucess {
+    height: 100px;
+    width: 150px;
+    left: 235px;
+    bottom: 360px;
+  }
+  #loginbuttonsucess {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
   }
 }
 /*# sourceMappingURL=style.css.map */

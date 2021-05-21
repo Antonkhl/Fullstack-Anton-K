@@ -278,4 +278,35 @@ font-size: $login_button_fontsize_mobile;
     overflow: $overflow;
 }
 
+ @mixin loginsucessfultext($loginsucessful_fontsize, $loginsucessful_color) {
+font-size: $loginsucessful_fontsize;
+color: $loginsucessful_color;
+ }
+
+ @mixin getstartednowtext($loginsucessful_color, $getstartednow_fontsize) {
+     color: $loginsucessful_color;
+     font-size: $getstartednow_fontsize;
+ }
+
+ @mixin loginsucessfultextmobile($loginsucessful_fontsize_mobile) {
+     font-size: $loginsucessful_fontsize_mobile;
+ }
+
+ @mixin getstartednowMobile($getstartednow_fontsize_mobile) {
+font-size: $getstartednow_fontsize_mobile;
+ }
+
+ @mixin headerButtonRegister($header_button_bgc, $header_button_border, $header_button_color, $header_button_padding, $header_button_text_align, $header_button_text_decoration, $header_button_display, $header_mobile_button_fontsize, $header_button_cursor, $registersucessful_button_height, $registersucessful_button_width) {
+    background-color: $header_button_bgc;
+    border: $header_button_border;
+    color: $header_button_color;
+    padding: $header_button_padding;
+    text-align: $header_button_text_align;
+    text-decoration: $header_button_text_decoration;
+    display: $header_button_display;
+    font-size: $header_mobile_button_fontsize;
+    cursor: $header_button_cursor;
+    height: $registersucessful_button_height;
+    width: $registersucessful_button_width;
+}
 

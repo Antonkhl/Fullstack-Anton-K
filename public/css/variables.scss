@@ -37,7 +37,7 @@ $main_text_posts_fontsize: 50px;
 $main_text_headline_fontsize: 30px;
 $main_text_fontsize: 20px;
 
-//login.ejs
+//login.ejs / Register.ejs
 $login_bgc: white;
 $border_login_from: 2px solid black;
 $login_border_radius: 9px;
@@ -51,9 +51,15 @@ $login_button_height: 100px;
 $login_button_width: 200px;
 $login_button_fontsize: 30px;
 
-//register.ejs
+//loginsucessful.ejs
 
+$loginsucessful_fontsize: 80px;
+$loginsucessful_color: white;
+$getstartednow_fontsize: 40px;
 
+//registersucessful.ejs
+$registersucessful_button_height: 100px;
+$registersucessful_button_width: 100px;
 
 //footer
 $footer_bgc: #546a75;
@@ -102,3 +108,5 @@ $login_button_height_mobile: 50px;
 $login_button_width_mobile: 100px;
 $login_button_fontsize_mobile: 15px;
 $login_mobile_site_height: 770px;
+$loginsucessful_fontsize_mobile: 40px;
+$getstartednow_fontsize_mobile: 20px;
