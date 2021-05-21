@@ -273,6 +273,15 @@ bottom: 400px;
     @include position($position);
 }
 
+//registersucessful
+
+#loginredirect {
+    @include position($position);
+    @include headerButtonRegister($header_button_bgc, $header_button_border, $header_button_color, $header_button_padding, $header_button_text_align, $header_button_text_decoration, $header_button_display, $registersucessful_button_fontsize, $header_button_cursor, $registersucessful_button_height, $registersucessful_button_width);
+bottom: 280px;
+left: 140px;
+}
+
 
 
 //footer
@@ -696,9 +705,11 @@ bottom: 320px;
     bottom: 360px;
 }
 
-#loginbuttonsucess {
-    @include headerButtonRegister($header_button_bgc, $header_button_border, $header_button_color, $header_button_padding, $header_button_text_align, $header_button_text_decoration, $header_button_display, $header_mobile_button_fontsize, $header_button_cursor, $registersucessful_button_height, $registersucessful_button_width);
+#loginredirect {
+    @include headerButtonRegisterMobile($header_button_bgc, $header_button_border, $header_button_color, $header_button_padding, $header_button_text_align, $header_button_text_decoration, $header_button_display, $registersucessful_button_fontsize_mobile, $header_button_cursor, $registersucessful_button_height_mobile);
 }
+
+
 
 }
 

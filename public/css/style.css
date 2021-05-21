@@ -302,6 +302,23 @@ body {
   position: relative;
 }
 
+#loginredirect {
+  position: relative;
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 80px;
+  cursor: pointer;
+  height: 150px;
+  width: 400px;
+  bottom: 280px;
+  left: 140px;
+}
+
 #footer {
   position: relative;
   background-color: #546a75;
@@ -682,7 +699,7 @@ body {
     left: 235px;
     bottom: 360px;
   }
-  #loginbuttonsucess {
+  #loginredirect {
     background-color: white;
     border: none;
     color: black;
@@ -690,10 +707,10 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 15px;
+    font-size: 40px;
     cursor: pointer;
-    height: 100px;
-    width: 100px;
+    height: 75px;
+    width: 200px;
   }
 }
 /*# sourceMappingURL=style.css.map */

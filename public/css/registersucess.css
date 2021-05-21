@@ -12,4 +12,30 @@
   left: 850px;
   bottom: 590px;
 }
+
+#footer {
+  bottom: 450px;
+}
+
+@media only screen and (max-width: 600px) {
+  #loginsucessful {
+    left: 140px;
+    bottom: 350px;
+  }
+  #getstartednow {
+    left: 260px;
+    bottom: 350px;
+  }
+  #logoimagesucess {
+    left: 400px;
+    bottom: 540px;
+  }
+  #loginredirect {
+    bottom: 320px;
+    left: 10px;
+  }
+  #footer {
+    bottom: 500px;
+  }
+}
 /*# sourceMappingURL=registersucess.css.map */
