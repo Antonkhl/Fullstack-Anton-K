@@ -1,0 +1,15 @@
+#footer {
+  bottom: 600px;
+}
+
+#container {
+  height: 1480px;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  #footer {
+    bottom: 100px;
+  }
+}
+/*# sourceMappingURL=aboutus.css.map */

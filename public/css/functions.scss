@@ -324,3 +324,21 @@ font-size: $getstartednow_fontsize_mobile;
     width: $registersucessful_button_width_mobile;
 
 }
+
+@mixin maintextaboutus($loginsucessful_color, $regulartext_fontsize, $regulartext_width, $regulartext_height) {
+    color: $loginsucessful_color;
+    font-size: $regulartext_fontsize;
+    height: $regulartext_height;
+    width: $regulartext_width;
+}
+
+@mixin maintextaboutusmobile($regulartext_fontsize_mobile, $regulartext_width_mobile, $regulartext_height_mobile) {
+    font-size: $regulartext_fontsize_mobile;
+    height: $regulartext_height_mobile;
+    width: $regulartext_width_mobile;
+}
+
+@mixin siteRestrictionAboutus($site_height_aboutus, $overflow) {
+    height: $site_height_aboutus;
+    overflow: $overflow;
+}

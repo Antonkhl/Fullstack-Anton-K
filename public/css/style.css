@@ -319,6 +319,71 @@ body {
   left: 140px;
 }
 
+#aboutusheader {
+  font-size: 80px;
+  color: white;
+  position: relative;
+  bottom: 515px;
+  left: 750px;
+}
+
+#whoarewe, #whoarewe2, #whoarewe3 {
+  color: white;
+  font-size: 40px;
+}
+
+#whoarewe {
+  position: relative;
+  bottom: 545px;
+  left: 520px;
+}
+
+#whoarewe2 {
+  position: relative;
+  bottom: 545px;
+  left: 480px;
+}
+
+#maintextaboutus, #maintextaboutus2, #maintextaboutus3 {
+  color: white;
+  font-size: 20px;
+  height: 100px;
+  width: 300px;
+}
+
+#maintextaboutus {
+  position: relative;
+  bottom: 560px;
+  left: 480px;
+}
+
+#maintextaboutus2 {
+  position: relative;
+  bottom: 560px;
+  left: 480px;
+}
+
+#whoarewe3 {
+  position: relative;
+  bottom: 475px;
+  left: 380px;
+}
+
+#maintextaboutus3 {
+  position: relative;
+  bottom: 490px;
+  left: 480px;
+}
+
+#logoaboutus {
+  position: relative;
+  border-radius: 8px;
+  height: 200px;
+  width: 300px;
+  bottom: 1100px;
+  left: 1200px;
+}
+
 #footer {
   position: relative;
   background-color: #546a75;
@@ -711,6 +776,44 @@ body {
     cursor: pointer;
     height: 75px;
     width: 200px;
+  }
+  #aboutusheader {
+    font-size: 40px;
+    left: 225px;
+    bottom: 360px;
+  }
+  #maintextaboutus, #maintextaboutus2, #maintextaboutus3 {
+    font-size: 10px;
+    height: 50px;
+    width: 150px;
+  }
+  #whoarewe, #whoarewe2, #whoarewe3 {
+    font-size: 20px;
+  }
+  #whoarewe {
+    left: 100px;
+    bottom: 380px;
+  }
+  #maintextaboutus, #maintextaboutus2 {
+    left: 80px;
+    bottom: 390px;
+  }
+  #whoarewe2 {
+    left: 90px;
+    bottom: 380px;
+  }
+  #whoarewe3 {
+    left: 40px;
+    bottom: 340px;
+  }
+  #maintextaboutus3 {
+    left: 80px;
+    bottom: 350px;
+  }
+  #logoaboutus {
+    height: 100px;
+    width: 150px;
+    left: 100px;
   }
 }
 /*# sourceMappingURL=style.css.map */

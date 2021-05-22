@@ -1,0 +1,16 @@
+@import './functions.scss';
+@import './variables.scss';
+
+#footer {
+    bottom: 600px;
+}
+
+#container {
+    @include siteRestrictionAboutus($site_height_aboutus, $overflow);
+}
+
+@media only screen and (max-width: 600px) {
+    #footer {
+        bottom: 100px;
+    }
+}

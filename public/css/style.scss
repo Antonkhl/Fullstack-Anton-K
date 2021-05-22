@@ -282,7 +282,65 @@ bottom: 280px;
 left: 140px;
 }
 
+//aboutus
 
+#aboutusheader {
+    @include loginsucessfultext($loginsucessful_fontsize, $loginsucessful_color);
+    @include position($position);
+    bottom: 515px;
+    left: 750px;
+    }
+    
+#whoarewe, #whoarewe2, #whoarewe3 {
+    @include getstartednowtext($loginsucessful_color, $getstartednow_fontsize);
+}
+
+#whoarewe {
+    @include position($position);
+    bottom: 545px;
+    left: 520px;
+}
+
+#whoarewe2 {
+    @include position($position);
+    bottom: 545px;
+    left: 480px;
+}
+
+#maintextaboutus, #maintextaboutus2, #maintextaboutus3 {
+    @include maintextaboutus($loginsucessful_color, $regulartext_fontsize, $regulartext_width, $regulartext_height);
+}
+
+#maintextaboutus {
+    @include position($position);
+    bottom: 560px;
+    left: 480px;
+}
+
+#maintextaboutus2 {
+    @include position($position);
+    bottom: 560px;
+    left: 480px;
+}
+
+#whoarewe3 {
+    @include position($position);
+    bottom: 475px;
+    left: 380px;
+}
+
+#maintextaboutus3 {
+    @include position($position);
+    bottom: 490px;
+    left: 480px;
+}
+
+#logoaboutus {
+    @include position($position);
+    @include  headerImg($border_radius, $header_logo_height, $header_logo_width);
+    bottom: 1100px;
+    left: 1200px;
+}
 
 //footer
 
@@ -708,6 +766,53 @@ bottom: 320px;
 #loginredirect {
     @include headerButtonRegisterMobile($header_button_bgc, $header_button_border, $header_button_color, $header_button_padding, $header_button_text_align, $header_button_text_decoration, $header_button_display, $registersucessful_button_fontsize_mobile, $header_button_cursor, $registersucessful_button_height_mobile);
 }
+
+#aboutusheader {
+    @include loginsucessfultextmobile($loginsucessful_fontsize_mobile);
+    left: 225px;
+    bottom: 360px;
+}
+
+#maintextaboutus, #maintextaboutus2, #maintextaboutus3 {
+    @include maintextaboutusmobile($regulartext_fontsize_mobile, $regulartext_width_mobile, $regulartext_height_mobile);
+}
+
+#whoarewe, #whoarewe2, #whoarewe3 {
+    @include getstartednowMobile($getstartednow_fontsize_mobile);
+}
+
+#whoarewe {
+    left: 100px;
+    bottom: 380px;
+}
+
+#maintextaboutus, #maintextaboutus2 {
+    left: 80px;
+    bottom: 390px;
+}
+
+#whoarewe2 {
+    left: 90px;
+    bottom: 380px;
+}
+
+#whoarewe3 {
+    left: 40px;
+    bottom: 340px;
+}
+
+#maintextaboutus3 {
+    left: 80px;
+    bottom: 350px;
+}
+
+#logoaboutus {
+    @include imgheader($header_mobile_height, $header_mobile_width);
+    left: 100px;
+}
+
+
+
 
 
 
