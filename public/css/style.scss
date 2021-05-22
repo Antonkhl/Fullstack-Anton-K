@@ -921,7 +921,91 @@ bottom: 320px;
     bottom: 650px;
 }
 
+#categoryPost {
+    @include categorypostsmobile($post_info_fontsize);
+    bottom: 350px;
+}
 
+#postHeader {
+    @include categorypostsmobile($post_info_fontsize);
+    bottom: 365px;
+}
+
+#sweden {
+@include infomessagesMobile($post_info_height_mobile, $post_info_width_mobile);
+bottom: 375px;
+}
+
+#swedentext {
+@include postinfoMobile($post_info_fontsize_mobile);
+bottom: 406px;
+left: 15px;
+}
+
+#clock {
+@include infomessagesMobileClock($post_info_clock_width_mobile, $post_info_height_mobile);
+bottom: 431px;
+left: 80px;
+}
+
+#timeofpost {
+@include postinfoMobile($post_info_fontsize_mobile);
+bottom: 465px;
+left: 110px;
+}
+
+.hline2 {
+    @include hline($header_mobile_hl_width);
+    bottom: 360px;
+}
+
+.hline3 {
+    @include hline($header_mobile_hl_width);
+    bottom: 460px;
+}
+
+#profilepicture {
+@include profilepictureMobile($profile_picture_height_mobile, $profile_picture_width_mobile);
+bottom: 450px;
+left: 20px;
+}
+
+#profilename {
+@include categorypostsmobile($post_info_fontsize);
+bottom: 465px;
+left: 30px;
+}
+
+#postcontent {
+   @include postinfoMobile($post_info_fontsize_posts);
+    bottom: 1130px;
+    left: 170px;
+}
+
+.hline4 {
+    @include hline($header_mobile_hl_width);
+    bottom: 1000px;
+}
+
+#postreply {
+    @include categorypostsmobile($post_info_fontsize);
+    bottom: 1000px;
+    }
+
+#hline5 {
+    @include hline($header_mobile_hl_width);
+    bottom: 1000px;
+}
+
+#replyinput {
+@include replyinput($reply_imput_width_mobile, $reply_imput_height_mobile);
+bottom: 1000px;
+}
+
+#replybutton {
+    @include headerButton($header_button_bgc, $header_button_border, $header_button_color, $header_button_padding, $header_button_text_align, $header_button_text_decoration, $header_button_display, $header_mobile_button_fontsize, $header_button_cursor);
+    bottom: 1000px;
+}
 
 
 

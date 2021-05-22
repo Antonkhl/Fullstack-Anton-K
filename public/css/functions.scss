@@ -381,3 +381,35 @@ font-size: $getstartednow_fontsize_mobile;
 width: $reply_imput_width;
 height: $reply_imput_height;
 }
+
+@mixin categorypostsmobile($post_info_fontsize) {
+    font-size: $post_info_fontsize;
+}
+
+@mixin infomessagesMobile($post_info_height_mobile, $post_info_width_mobile) {
+    height: $post_info_height_mobile;
+    width: $post_info_width_mobile;
+}
+
+@mixin postinfoMobile($post_info_fontsize_mobile) {
+    font-size: $post_info_fontsize_mobile;
+}
+
+@mixin infomessagesMobileClock($post_info_clock_width_mobile, $post_info_height_mobile) {
+    width: $post_info_clock_width_mobile;
+    height: $post_info_height_mobile;
+}
+
+@mixin profilepictureMobile($profile_picture_height_mobile, $profile_picture_width_mobile) {
+    height: $profile_picture_height_mobile;
+    width: $profile_picture_width_mobile;
+}
+
+@mixin replyinput($reply_imput_width_mobile, $reply_imput_height_mobile) {
+    width: $reply_imput_width_mobile;
+    height: $reply_imput_height_mobile;
+    }
+
+    @mixin postinfoMobile($post_info_fontsize_posts) {
+        font-size: $post_info_fontsize_posts;
+    }

@@ -11,4 +11,15 @@
 #container {
   height: 2100px;
 }
+
+@media only screen and (max-width: 600px) {
+  .vlMain {
+    left: 150px;
+    bottom: 635px;
+    height: 500px;
+  }
+  #footer {
+    bottom: 300px;
+  }
+}
 /*# sourceMappingURL=post.css.map */
