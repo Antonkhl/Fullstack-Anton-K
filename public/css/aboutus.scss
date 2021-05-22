@@ -11,6 +11,10 @@
 
 @media only screen and (max-width: 600px) {
     #footer {
-        bottom: 100px;
+        bottom: 400px;
+    }
+
+    #container {
+        @include  siteRestrictionAboutusMobile($site_height_aboutus_mobile, $overflow);
     }
 }

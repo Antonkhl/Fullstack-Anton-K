@@ -1,0 +1,17 @@
+@import './functions.scss';
+@import './variables.scss';
+
+#footer {
+    bottom: 1100px;
+}
+
+.vlMain {
+    @include mainVlPosts($main_vl_height_posts);
+    bottom: 1070px;
+    left: 300px;
+}
+
+#container {
+    height: 2100px;
+}
+

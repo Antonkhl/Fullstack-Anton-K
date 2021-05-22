@@ -342,6 +342,115 @@ left: 140px;
     left: 1200px;
 }
 
+
+//posts 
+
+#categoryPost {
+    @include position($position);
+    @include categoryposts($category_header_color, $category_header_fontsize);
+    bottom: 490px;
+}
+
+.hline2 {
+    @include horizontalLine($header_hl_border, $header_hl_border_radius, $header_hl_width);
+    @include position($position);
+    bottom: 515px;
+    right: 300px;
+}
+
+#postHeader {
+    @include position($position);
+    @include categoryposts($category_header_color, $category_header_fontsize);
+    bottom: 540px;
+}
+
+#sweden {
+    @include position($position);
+    @include infomessages($post_info_height, $post_info_width);
+    bottom: 560px;
+}
+
+#swedentext {
+    @include position($position);
+    @include postinfo($post_info_fontsize, $category_header_color);
+    bottom: 620px;
+    left: 30px;
+}
+
+#clock {
+    @include position($position);
+    @include infomessagesClock($post_info_height, $post_info_clock_width);
+    bottom: 675px;
+    left: 120px;
+}
+
+#timeofpost {
+    @include position($position);
+    @include postinfo($post_info_fontsize, $category_header_color);
+    bottom: 737px;
+    left: 165px;
+}
+
+.hline3 {
+    @include horizontalLine($header_hl_border, $header_hl_border_radius, $header_hl_width);
+    @include position($position);
+    bottom: 730px;
+}
+
+#profilepicture {
+    @include profilepicture($profile_picture_height, $profile_picture_width);
+    @include position($position);
+    bottom: 700px;
+    left: 30px;
+}
+
+#profilename {
+    @include position($position);
+    @include categoryposts($category_header_color, $category_header_fontsize);
+    bottom: 720px;
+    left: 40px;
+}
+
+#postcontent {
+    @include position($position);
+    bottom: 1850px;
+    left: 350px;
+    @include categoryposts($category_header_color, $category_header_fontsize);
+}
+
+.hline4 {
+    @include horizontalLine($header_hl_border, $header_hl_border_radius, $header_hl_width);
+    @include position($position);
+    bottom: 1244px;
+}
+ 
+#postreply {
+    @include categoryposts($category_header_color, $category_header_fontsize);
+    @include position($position);
+    bottom: 1230px;
+}
+
+.hline5 {
+    @include horizontalLine($header_hl_border, $header_hl_border_radius, $header_hl_width);
+    @include position($position);
+    bottom: 1210px;
+}
+
+#replyinput {
+    @include replyinput($reply_imput_width, $reply_imput_height);
+    @include position($position);
+    bottom: 1225px;
+}
+
+#replybutton {
+    @include position($position);
+    @include headerButton($header_button_bgc, $header_button_border, $header_button_color, $header_button_padding, $header_button_text_align, $header_button_text_decoration, $header_button_display, $header_button_fontsize, $header_button_cursor);
+bottom: 1200px;
+left: 1675px;
+}
+
+
+
 //footer
 
 #footer {
@@ -808,7 +917,8 @@ bottom: 320px;
 
 #logoaboutus {
     @include imgheader($header_mobile_height, $header_mobile_width);
-    left: 100px;
+    left: 400px;
+    bottom: 650px;
 }
 
 

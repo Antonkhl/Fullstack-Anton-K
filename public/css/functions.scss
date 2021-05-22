@@ -342,3 +342,42 @@ font-size: $getstartednow_fontsize_mobile;
     height: $site_height_aboutus;
     overflow: $overflow;
 }
+
+@mixin siteRestrictionAboutusMobile($site_height_aboutus_mobile, $overflow) {
+    height: $site_height_aboutus_mobile;
+    overflow: $overflow;
+}
+
+@mixin categoryposts($category_header_color, $category_header_fontsize) {
+    color: $category_header_color;
+    font-size: $category_header_fontsize;
+}
+
+@mixin infomessages($post_info_height, $post_info_width) {
+    height: $post_info_height;
+    width: $post_info_width;
+}
+
+@mixin postinfo($post_info_fontsize, $category_header_color) {
+    font-size: $post_info_fontsize;
+    color: $category_header_color;
+}
+
+@mixin infomessagesClock($post_info_height, $post_info_clock_width) {
+    height: $post_info_height;
+    width: $post_info_clock_width;
+}
+
+@mixin profilepicture($profile_picture_height, $profile_picture_width) {
+    height: $profile_picture_height;
+    width: $profile_picture_width;
+}
+
+@mixin mainVlPosts($main_vl_height_posts) {
+    height: $main_vl_height_posts;
+}
+
+@mixin replyinput($reply_imput_width, $reply_imput_height) {
+width: $reply_imput_width;
+height: $reply_imput_height;
+}
