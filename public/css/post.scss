@@ -2,7 +2,8 @@
 @import './variables.scss';
 
 #footer {
-    bottom: 1100px;
+    position: relative;
+    bottom: 1290px;
 }
 
 .vlMain {
@@ -12,7 +13,7 @@
 }
 
 #container {
-    height: 2100px;
+    height: 2000px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -23,7 +24,18 @@
     }
 
     #footer {
-        bottom: 300px;
+        bottom: 1050px;
     }
+
+  .hline5 {
+      bottom: 800px;
+  }
+
+  #container {
+      height: 900px;
+  }
+
+  
+    
 }
 

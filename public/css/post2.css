@@ -1,0 +1,34 @@
+#profilename {
+  font-size: 33px;
+  left: 10px;
+}
+
+.vlMain {
+  bottom: 1050px;
+}
+
+.hline4 {
+  bottom: 1225px;
+}
+
+@media only screen and (max-width: 600px) {
+  .vlMain {
+    left: 150px;
+    bottom: 625px;
+    height: 500px;
+  }
+  #footer {
+    bottom: 300px;
+  }
+  .hline5 {
+    bottom: 1050px;
+  }
+  #profilename {
+    font-size: 16px;
+    left: 1px;
+  }
+  #footer {
+    bottom: 1050px;
+  }
+}
+/*# sourceMappingURL=post2.css.map */
